@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hocky's</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Daisy Ui CDN code link  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Fontawsome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="container mx-auto">
+        <nav class="mb-5">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 6h16M4 12h8m-8 6h16" />
+                      </svg>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                      <li><a>Home</a></li>
+                      <li><a>About</a></li>
+                      <li><a>Pages</a></li>
+                      <li><a>Blog</a></li>
+                      <li><a>Contact</a></li>
+                    </ul>
+                  </div>
+                  <a class="btn btn-ghost text-2xl lg:text-5xl font-bold">Hocky's</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a class="font-semibold">Home</a></li>
+                    <li><a class="font-semibold">About</a></li>
+                    <li><a class="font-semibold">Pages</a></li>
+                    <li><a class="font-semibold">Blog</a></li>
+                    <li><a class="font-semibold">Contact</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                    <i class="fa-solid fa-magnifying-glass mr-2"></i>
+                  <a class="btn btn-primary">Button</a>
+                </div>
+              </div>
+        </nav>
+        <!-- slider section  -->
+         <section>
+            <div class="relative space-y-3">
+                <div class="carousel w-full lg:h-[450px]">
+                    <div id="slide1" class="carousel-item relative w-full">
+                      <img
+                        src="Images/1.png"
+                        class="w-full " />
+                      <div class="absolute left-1/3 lg:left-5 bottom-5 flex space-x-2 justify-between ">
+                        <a href="#slide2" class="btn btn-circle bg-black text-white">❯</a>
+                        <a href="#slide4" class="btn btn-circle bg-black text-white">❮</a>
+                      </div>
+                    </div>
+                    <div id="slide2" class="carousel-item relative w-full">
+                      <img
+                        src="Images/2.png"
+                        class="w-full  " />
+                        <div class="absolute left-1/3 lg:left-5 bottom-5 flex space-x-2 justify-between ">
+                          <a href="#slide2" class="btn btn-circle bg-black text-white">❯</a>
+                          <a href="#slide4" class="btn btn-circle bg-black text-white">❮</a>
+                        </div>
+                    </div>
+                    <div id="slide3" class="carousel-item relative w-full">
+                      <img
+                        src="Images/3.png"
+                        class="w-full " />
+                        <div class="absolute left-1/3 lg:left-5 bottom-5 flex space-x-2 justify-between ">
+                          <a href="#slide2" class="btn btn-circle bg-black text-white">❯</a>
+                          <a href="#slide4" class="btn btn-circle bg-black text-white">❮</a>
+                        </div>
+                    </div>
+                    <div id="slide4" class="carousel-item relative w-full">
+                      <img
+                        src="Images/4.png"
+                        class="w-full  " />
+                        <div class="absolute left-1/3 lg:left-5 bottom-5 flex space-x-2 justify-between ">
+                          <a href="#slide2" class="btn btn-circle bg-black text-white">❯</a>
+                          <a href="#slide4" class="btn btn-circle bg-black text-white">❮</a>
+                        </div>
+                    </div>
+                  </div>
+                  <!-- extra text div  -->
+                   <div class="lg:absolute lg:bottom-12 lg:right-12 bg-slate-900 text-white lg:w-1/3 w-full rounded-xl p-4">
+                    <h2 class="text-xl font-semibold">Meet all the heroes from the field</h2>
+                    <p class="text-xs font-semibold">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                   </div>
+            </div>
+         </section>
+    </header>
+    <!-- main section start  -->
+     <main class="container mx-auto">
+      <!-- Professional hocky's club section  -->
+       <section>
+        <div class="flex flex-col justify-center items-center space-y-3 border-y-[2px] border-dotted py-5 my-10">
+          <h1 class="text-2xl lg:text-5xl font-bold">Professional Hockeys Club</h1>
+          <p class=" lg:w-1/2 text-center ">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+        </div>
+
+        <!-- card section start here  -->
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+          <div class="flex flex-col items-center justify-center space-y-2 py-2">
+            <div class="relative radial-progress text-gray-200" style="--value:100;" role="progressbar">
+              <div class="absolute z-10 radial-progress text-[#FF4240]" style="--value:87;" role="progressbar">
+              87%
+              </div>
+            </div>
+            <h2 class="text-2xl font-bold">Prayer Facility</h2>
+            <p class="w-full text-center">Amet consectetur. Condimentum dignissim adipiscing .</p>
+          </div>
+          <div class="flex flex-col items-center justify-center space-y-2 py-2">
+            <div class="relative radial-progress text-gray-200" style="--value:100;" role="progressbar">
+              <div class="absolute z-10 radial-progress text-[#49D293]" style="--value:95;" role="progressbar">
+              95%
+              </div>
+            </div>
+            <h2 class="text-2xl font-bold">Experienced Coach</h2>
+            <p class="w-full text-center">Amet consectetur. Condimentum dignissim adipiscing .</p>
+          </div>
+          <div class="flex flex-col items-center justify-center space-y-2 py-2">
+            <div class="relative radial-progress text-gray-200" style="--value:100;" role="progressbar">
+              <div class="absolute z-10 radial-progress text-[#FFB546]" style="--value:90;" role="progressbar">
+              90%
+              </div>
+            </div>
+            <h2 class="text-2xl font-bold">Experienced Coach</h2>
+            <p class="w-full text-center">Amet consectetur. Condimentum dignissim adipiscing .</p>
+          </div>
+          <div class="flex flex-col items-center justify-center space-y-2 py-2">
+            <div class="relative radial-progress text-gray-200" style="--value:100;" role="progressbar">
+              <div class="absolute z-10 radial-progress text-[#4C8DF1]" style="--value:80;" role="progressbar">
+              80%
+              </div>
+            </div>
+            <h2 class="text-2xl font-bold">Training Ground</h2>
+            <p class="w-full text-center">Amet consectetur. Condimentum dignissim adipiscing .</p>
+          </div>
+        </div>
+       </section>
+       <!-- Program section start from here  -->
+        <section class="px-5">
+          <div class="flex flex-col justify-center items-center space-y-3 border-y-[2px] border-dotted py-5 my-10">
+            <h1 class="text-2xl lg:text-5xl font-bold">Program Sections</h1>
+            <p class=" lg:w-1/2 text-center ">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+          </div>
+          <!-- card  -->
+           <div class="grid grid-cols-1 md:grid-cols-2 gap-5 mb-20">
+            <div class="rounded-lg h-58 w-full first-img flex flex-col justify-center items-center p-1 lg:p-20">
+              <div class="space-y-3 p-4">
+                <h1 class="text-white text-2xl font-bold">Junior Programm</h1>
+                <p class="text-white text-xs w-full">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+                  enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+                <button class="btn btn-primary">Register Now !</button>
+              </div>
+            </div>
+            <div class="rounded-lg h-58 w-full second-img flex flex-col justify-center items-center p-1 lg:p-20">
+              <div class="space-y-3 p-4">
+                <h1 class="text-white text-2xl font-bold">Junior Programm</h1>
+                <p class="text-white text-xs w-full">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+                  enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+                <button class="btn btn-primary">Register Now !</button>
+              </div>
+            </div>
+            <div class="rounded-lg h-58 w-full third-img flex flex-col justify-center items-center lg:col-span-2 p-1 lg:p-20">
+              <div class="space-y-3 p-4">
+                <h1 class="text-white text-2xl font-bold">Junior Programm</h1>
+                <p class="text-white text-xs w-full">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+                  enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+                <button class="btn btn-primary">Register Now !</button>
+              </div>
+            </div>
+        </section>
+        <!-- Our Product section start here  -->
+         <section class="mb-20">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            <div class="flex flex-col justify-center items-center lg:flex-row space-x-5 border-2 p-5 rounded-lg ">
+              <div><img src="Images/5.png" alt=""></div>
+              <div class="flex flex-col space-y-6">
+                <div>
+                  <div class="flex space-x-5">
+                    <div class="flex space-x-2 items-center">
+                      <i class="fa-solid fa-star text-orange-600"></i>
+                      <h1 class="font-bold text-gray-500">5.0</h1>
+                    </div>
+                    <div class="flex space-x-2 items-center">
+                      <i class="fa-regular fa-eye text-gray-400"></i>
+                      <h1 class="font-bold text-gray-500">500</h1>
+                    </div>
+                    <div class="flex space-x-2 items-center">
+                      <i class="fa-regular fa-heart"></i>
+                      <h1 class="font-bold text-gray-500">200</h1>
+                    </div>
+                  </div>
+                </div>
+                <!-- another div  -->
+                <div class="space-y-3">
+                  <h2 class="text-xl font-bold">World Cup Flags Football</h2>
+                  <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                </div>
+                <!-- Again anaother div  -->
+                <div class="flex justify-between items-center space-x-3">
+                  <h2 class="text-2xl font-bold text-red-600">Price-$22.00</h2>
+                  <div class="flex space-x-2 items-center">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <h3 class="font-bold text-gray-500">Delivery Fee : Free</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="flex flex-col justify-center items-center lg:flex-row space-x-5 border-2 p-5 rounded-lg ">
+              <div><img src="Images/6.png" alt=""></div>
+              <div class="flex flex-col space-y-6">
+                <div>
+                  <div class="flex space-x-5">
+                    <div class="flex space-x-2 items-center">
+                      <i class="fa-solid fa-star text-orange-600"></i>
+                      <h1 class="font-bold text-gray-500">5.0</h1>
+                    </div>
+                    <div class="flex space-x-2 items-center">
+                      <i class="fa-regular fa-eye text-gray-400"></i>
+                      <h1 class="font-bold text-gray-500">500</h1>
+                    </div>
+                    <div class="flex space-x-2 items-center">
+                      <i class="fa-regular fa-heart"></i>
+                      <h1 class="font-bold text-gray-500">200</h1>
+                    </div>
+                  </div>
+                </div>
+                <!-- another div  -->
+                <div class="space-y-3">
+                  <h2 class="text-xl font-bold">World Cup Flags Football</h2>
+                  <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                </div>
+                <!-- Again anaother div  -->
+                <div class="flex justify-between items-center space-x-3">
+                  <h2 class="text-2xl font-bold text-red-600">Price-$22.00</h2>
+                  <div class="flex space-x-2 items-center">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <h3 class="font-bold text-gray-500">Delivery Fee : Free</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="flex flex-col justify-center items-center lg:flex-row space-x-5 border-2 p-5 rounded-lg ">
+              <div><img src="Images/7.png" alt=""></div>
+              <div class="flex flex-col space-y-6">
+                <div>
+                  <div class="flex space-x-5">
+                    <div class="flex space-x-2 items-center">
+                      <i class="fa-solid fa-star text-orange-600"></i>
+                      <h1 class="font-bold text-gray-500">5.0</h1>
+                    </div>
+                    <div class="flex space-x-2 items-center">
+                      <i class="fa-regular fa-eye text-gray-400"></i>
+                      <h1 class="font-bold text-gray-500">500</h1>
+                    </div>
+                    <div class="flex space-x-2 items-center">
+                      <i class="fa-regular fa-heart"></i>
+                      <h1 class="font-bold text-gray-500">200</h1>
+                    </div>
+                  </div>
+                </div>
+                <!-- another div  -->
+                <div class="space-y-3">
+                  <h2 class="text-xl font-bold">World Cup Flags Football</h2>
+                  <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                </div>
+                <!-- Again anaother div  -->
+                <div class="flex justify-between items-center space-x-3">
+                  <h2 class="text-2xl font-bold text-red-600">Price-$22.00</h2>
+                  <div class="flex space-x-2 items-center">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <h3 class="font-bold text-gray-500">Delivery Fee : Free</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="flex flex-col justify-center items-center lg:flex-row space-x-5 border-2 p-5 rounded-lg ">
+              <div><img src="Images/8.png" alt=""></div>
+              <div class="flex flex-col space-y-6">
+                <div>
+                  <div class="flex space-x-5">
+                    <div class="flex space-x-2 items-center">
+                      <i class="fa-solid fa-star text-orange-600"></i>
+                      <h1 class="font-bold text-gray-500">5.0</h1>
+                    </div>
+                    <div class="flex space-x-2 items-center">
+                      <i class="fa-regular fa-eye text-gray-400"></i>
+                      <h1 class="font-bold text-gray-500">500</h1>
+                    </div>
+                    <div class="flex space-x-2 items-center">
+                      <i class="fa-regular fa-heart"></i>
+                      <h1 class="font-bold text-gray-500">200</h1>
+                    </div>
+                  </div>
+                </div>
+                <!-- another div  -->
+                <div class="space-y-3">
+                  <h2 class="text-xl font-bold">World Cup Flags Football</h2>
+                  <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                </div>
+                <!-- Again anaother div  -->
+                <div class="flex justify-between items-center space-x-3">
+                  <h2 class="text-2xl font-bold text-red-600">Price-$22.00</h2>
+                  <div class="flex space-x-2 items-center">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <h3 class="font-bold text-gray-500">Delivery Fee : Free</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="flex flex-col justify-center items-center lg:flex-row space-x-5 border-2 p-5 rounded-lg ">
+              <div><img src="Images/9.png" alt=""></div>
+              <div class="flex flex-col space-y-6">
+                <div>
+                  <div class="flex space-x-5">
+                    <div class="flex space-x-2 items-center">
+                      <i class="fa-solid fa-star text-orange-600"></i>
+                      <h1 class="font-bold text-gray-500">5.0</h1>
+                    </div>
+                    <div class="flex space-x-2 items-center">
+                      <i class="fa-regular fa-eye text-gray-400"></i>
+                      <h1 class="font-bold text-gray-500">500</h1>
+                    </div>
+                    <div class="flex space-x-2 items-center">
+                      <i class="fa-regular fa-heart"></i>
+                      <h1 class="font-bold text-gray-500">200</h1>
+                    </div>
+                  </div>
+                </div>
+                <!-- another div  -->
+                <div class="space-y-3">
+                  <h2 class="text-xl font-bold">World Cup Flags Football</h2>
+                  <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                </div>
+                <!-- Again anaother div  -->
+                <div class="flex justify-between items-center space-x-3">
+                  <h2 class="text-2xl font-bold text-red-600">Price-$22.00</h2>
+                  <div class="flex space-x-2 items-center">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <h3 class="font-bold text-gray-500">Delivery Fee : Free</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="flex flex-col justify-center items-center lg:flex-row space-x-5 border-2 p-5 rounded-lg ">
+              <div><img src="Images/10.png" alt=""></div>
+              <div class="flex flex-col space-y-6">
+                <div>
+                  <div class="flex space-x-5">
+                    <div class="flex space-x-2 items-center">
+                      <i class="fa-solid fa-star text-orange-600"></i>
+                      <h1 class="font-bold text-gray-500">5.0</h1>
+                    </div>
+                    <div class="flex space-x-2 items-center">
+                      <i class="fa-regular fa-eye text-gray-400"></i>
+                      <h1 class="font-bold text-gray-500">500</h1>
+                    </div>
+                    <div class="flex space-x-2 items-center">
+                      <i class="fa-regular fa-heart"></i>
+                      <h1 class="font-bold text-gray-500">200</h1>
+                    </div>
+                  </div>
+                </div>
+                <!-- another div  -->
+                <div class="space-y-3">
+                  <h2 class="text-xl font-bold">World Cup Flags Football</h2>
+                  <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                </div>
+                <!-- Again anaother div  -->
+                <div class="flex justify-between items-center space-x-3">
+                  <h2 class="text-2xl font-bold text-red-600">Price-$22.00</h2>
+                  <div class="flex space-x-2 items-center">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <h3 class="font-bold text-gray-500">Delivery Fee : Free</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+         </section>
+
+         <!-- Get in Touch Section  -->
+          <section>
+            <div class="flex flex-col justify-center items-center space-y-3 border-y-[2px] border-dotted py-5 my-10">
+              <h1 class="text-2xl lg:text-5xl font-bold">Get In Touch </h1>
+              <p class=" lg:w-1/2 text-center ">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            </div>
+            <!-- input field  -->
+             <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                <div class="p-6 border-2 rounded-lg space-y-5 ">
+                  <div class="bg-green-100 rounded-lg p-6   space-y-3">
+                    <div class="space-y-3"><img src="Images/Group 1171275317.png" alt="">
+                    </div>
+                    <div>
+                      <p>Phone Number :</p>
+                      <h2 class="text-xl font-bold">+88 01731529960</h2>
+                    </div>
+                  </div>
+                  <div class="bg-green-100 rounded-lg p-6 space-y-3">
+                    <div class="space-y-3"><img src="Images/Group 1171275318.png" alt="">
+                    </div>
+                    <div>
+                      <p>Phone Number :</p>
+                      <h2 class="text-xl font-bold">+88 01731529960</h2>
+                    </div>
+                  </div>
+                  <div class="bg-green-100 rounded-lg p-6 space-y-3">
+                    <div class="space-y-3"><img src="Images/Group 1171275321.png" alt="">
+                    </div>
+                    <div>
+                      <p>Phone Number :</p>
+                      <h2 class="text-xl font-bold">+88 01731529960</h2>
+                    </div>
+                  </div>
+                </div>
+                <!-- input field start  -->
+                <div class=" col-span-2">
+                    <div class="grid grid-cols-2 gap-6">
+                      <div class="space-y-3 ">
+                        <label for="" class="text-xl font-bold">Name</label> <br>
+                        <input type="text" placeholder="Enter Your Full Name" class="w-full p-4 bg-gray-100 rounded-lg">
+                      </div>
+                      <div class="space-y-3 ">
+                        <label for="" class="text-xl font-bold">Your E-mail</label> <br>
+                        <input type="text" placeholder="Enter Your Email" class="w-full p-4 bg-gray-100 rounded-lg">
+                      </div>
+                      <div class=" space-y-3">
+                        <label for="" class="text-xl font-bold">Subject</label> <br>
+                        <input type="text" placeholder="Enter Your Subject Name" class="w-full p-4 bg-gray-100 rounded-lg">
+                      </div>
+                      <div class="space-y-3 ">
+                        <label for="" class="text-xl font-bold">Phone Number</label> <br>
+                        <input type="text" placeholder="Enter Your Phune Number" class="w-full p-4 bg-gray-100 rounded-lg">
+                      </div>
+                      <div class="  col-span-2">
+                        <label for="" class="text-xl font-bold">Message</label> <br>
+                        <textarea rows="9" class=" mt-3 p-4 border-none outline-none bg-gray-100 rounded-lg w-full " placeholder="Your Message"></textarea>
+                        <button class="btn btn-active w-full my-5 btn-secondary text-2xl">Send Message</button>
+                      </div>
+                    </div>
+                </div>
+             </div>
+          </section>
+     </main>
+</body>
+</html>

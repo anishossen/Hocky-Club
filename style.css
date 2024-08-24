@@ -1,0 +1,18 @@
+.first-img{
+    background-image: linear-gradient(45deg, rgba(19, 19, 24, 0.5), rgba(19, 19, 24, 0.7)), url("Images/2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.second-img{
+    background-image: linear-gradient(45deg, rgba(19, 19, 24, 0.5), rgba(19, 19, 24, 0.7)), url("Images/3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.third-img{
+    background-image: linear-gradient(45deg, rgba(19, 19, 24, 0.5), rgba(19, 19, 24, 0.7)), url("Images/4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
